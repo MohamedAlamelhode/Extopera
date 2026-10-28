@@ -1,0 +1,4 @@
+html.extopera-rtl-enabled,
+html.extopera-rtl-enabled body {
+  direction: rtl !important;
+}

@@ -1,0 +1,62 @@
+:root {
+  color-scheme: light;
+  font-family: "Noto Sans Arabic", "Segoe UI", sans-serif;
+  background: #f4f6f2;
+  color: #17231e;
+}
+
+body {
+  width: 280px;
+  margin: 0;
+}
+
+.panel {
+  padding: 18px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.site {
+  overflow-wrap: anywhere;
+  margin: 0 0 16px;
+  color: #52635b;
+  font-size: 13px;
+}
+
+button {
+  width: 100%;
+  min-height: 42px;
+  border: 0;
+  border-radius: 5px;
+  background: #176b52;
+  color: white;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button[aria-pressed="true"] {
+  background: #a63d32;
+}
+
+button:disabled {
+  background: #8b9690;
+  cursor: not-allowed;
+}
+
+button:focus-visible {
+  outline: 3px solid #e3a72f;
+  outline-offset: 3px;
+}
+
+.status {
+  min-height: 18px;
+  margin: 12px 0 0;
+  color: #52635b;
+  font-size: 12px;
+}
